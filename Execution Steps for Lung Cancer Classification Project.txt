@@ -1,0 +1,63 @@
+Execution Steps for Lung Cancer classification model training:
+
+1.Mount Google Drive
+– Access dataset stored in Google Drive.
+
+2.Import Required Libraries
+– TensorFlow, Keras, Matplotlib, etc.
+
+3.Enable Mixed Precision (optional)
+– For faster training on supported hardware.
+
+4.Initialize Paths and Parameters
+– Set paths for training, validation, and test datasets.
+– Define image size and batch size.
+
+5.Create Data Generators
+– Load images from directories and preprocess them.
+
+6.Build the CNN Model (VGG16)
+– Load VGG16 without top layers (pretrained on ImageNet).
+– Add custom classification layers.
+
+7.Compile and Train the Model
+– Use callbacks like EarlyStopping, ModelCheckpoint, etc.
+– Train with frozen layers → then fine-tune some VGG16 layers.
+
+8.Visualize Training Performance
+– Plot training/validation accuracy and loss.
+
+9.Save the Trained Model
+– Save in .keras, .h5, and TensorFlow formats.
+
+10.Evaluate on Test Dataset
+– Load test data and measure model accuracy.
+
+
+
+
+Lung Cancer Prediction Web Interface – Execution Steps:
+
+1.Mount Google Drive
+– Accesses saved model from Google Drive.
+
+2.Install Required Libraries
+– Installs Flask, TensorFlow, Pillow, and pyngrok.
+
+3.Import Dependencies
+– Sets up Python libraries for server, model handling, and image processing.
+
+4.Load Trained Model
+– Loads the lung cancer classification model with a custom layer.
+
+5.Build Web Interface
+– Creates an HTML/CSS-based chatbot UI for uploading images.
+
+6.Set Up Prediction Endpoint
+– Processes uploaded images, runs predictions, and returns results.
+
+7.Start Server with ngrok
+– Runs the Flask app and shares it via a public ngrok URL.
+
+8.Evaluate Model (Optional)
+– Generates confusion matrix, classification report, and ROC curves.
