@@ -1,10 +1,5 @@
 # 🫁 OncoScan AI — Lung Cancer Detection with VGG16
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kilarisasikumar682-prog/Deep-Learning-project/blob/main/Lung_cancer.ipynb)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-orange?logo=tensorflow)
-![Flask](https://img.shields.io/badge/Flask-3.1-lightgrey?logo=flask)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 > **A deep learning system for automated lung cancer classification from CT/pathology images, featuring Grad-CAM visualisations and AI-generated diagnostic PDF reports.**
 
